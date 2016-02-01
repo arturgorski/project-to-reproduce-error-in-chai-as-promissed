@@ -5,7 +5,9 @@
   "main": "",
   "scripts": {
     "postinstall": "webdriver-manager update",
-    "test": "protractor ./protractor.config.js"
+    "test": "protractor ./protractor.config.js",
+    "e2e:live": "protractor --elementExplorer",
+    "webdriver:start": "webdriver-manager start"
   },
   "author": "Artur Górski",
   "license": "MIT",
